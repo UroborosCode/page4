@@ -1,0 +1,337 @@
+@media screen and (max-width: 1075px){
+    .header{
+        &__link-menu{
+            margin-left: 5px !important;
+            margin-right: 5px !important;
+        }
+
+    }
+    .first-box{
+        &__head{
+            font-size: 36px !important;
+            line-height: 42px !important;
+        }
+    }
+}
+@media screen and (max-width: 1000px){
+    .header{
+        &__link-menu{
+            font-size: 14px !important;
+            line-height: 18px !important;
+        }
+    }
+    .first-box{
+        &__right-numb{
+            margin-left: 20px !important;
+            margin-right: 20px !important;
+        }
+    }
+}
+@media screen and (max-width: 799px){
+
+    .header{
+        &__list-item{
+            display: none;
+        }
+        &__media-nav{
+            display: block !important;
+            margin-left: 50px;
+            border: none;
+            background: inherit;
+        }
+        &__box-media{
+            display: flex;
+        }
+    }
+    .first-box{
+        &__bg-one{
+            width: 210px !important;
+            height: 330px !important;
+        }
+        &__link-inf{
+            width: 210px !important;
+            height: 120px !important;
+            font-size: 14px !important;
+            line-height: 22px !important;
+            padding-left: 12px !important;
+            padding-top: 75px !important;
+        }
+        &__link-svg{
+            top: 15px !important;
+        }
+        &__right-head{
+            padding-left: 33px !important;
+            padding-top: 40px !important;
+            padding-right: 50px !important;
+            padding-bottom: 12px !important;
+            &::before{
+                display: none !important;
+            }
+            &::after{
+                display: none !important;
+            }
+        }
+        &__head{
+            font-size: 18px !important;
+            line-height: 25px !important;
+            width: 310px !important;
+        }
+        &__text{
+            font-size: 14px !important;
+            line-height: 16px !important;
+        }
+        &__wrapp-btn{
+            margin-bottom: 20px !important;
+        }
+        &__inner-text{
+            font-size: 14px !important;
+            line-height: 16px !important;
+            margin-right: 24px !important;
+            &::before{
+                top: 0 !important;
+                left: -10px !important;
+
+            }
+        }
+        &__right-time{
+            padding: 33px 53px !important;
+        }
+        &__right-time-head{
+            padding: 14px 105px !important;
+        }
+        &__right-time-head-text{
+            text-align: center;
+            font-size: 14px !important;
+            line-height: 16px !important;
+        }
+        &__right-time-box-numb{
+            padding-left: 33px !important;
+            padding-right: 33px !important;
+        }
+        &__right-numb{
+            font-size: 32px !important;
+            line-height: 51px !important;
+        }
+        &__time-text{
+            font-size: 14px !important;
+            line-height: 16px !important;
+        }
+    }
+    .congress{
+        margin-top: 87px !important;
+        &__header{
+            margin-bottom: 20px !important;
+        }
+        &__head{
+            font-size: 18px !important;
+            line-height: 27px !important;
+        }
+        &__link-all{
+            font-size: 14px !important;
+            line-height: 20px !important;
+            padding-right: 20px !important;
+        }    
+        &__btn{
+            font-size: 14px !important;
+            line-height: 22px !important; 
+            padding: 8px 30px !important;
+        }
+        &__zal{
+            font-size: 14px !important;
+            line-height: 21px !important;
+        }
+        &__text-zal{
+            font-size: 14px !important;
+            line-height: 21px !important;
+        }
+        &__content-head{
+            font-size: 14px !important;
+            line-height: 18px !important;
+        }
+        &__content-link{
+            font-size: 14px !important;
+            line-height: 20px !important;
+        }
+        &__time{
+            font-size: 14px !important;
+            line-height: 22px !important;
+        }
+        &__date{
+            font-size: 14px !important;
+            line-height: 22px !important;
+        }
+        &__btn-inner{
+            font-size: 14px !important;
+            line-height: 20px !important;
+        }
+        &__foot-box{
+            max-width: 340px !important;
+            padding: 14px !important;
+        }
+        &__foot{
+            margin-bottom: 80px !important;
+        }
+    }
+    .slick-next{
+        right: -15px !important;
+    }
+    .news{
+        margin-bottom: 80px !important;
+        &__head{
+            font-size: 18px !important;
+            line-height: 22px !important;
+            margin-bottom: 30px !important;
+        }
+        &__link-all{
+            font-size: 14px !important;
+            line-height: 20px !important;
+            top: 0 !important;
+        }
+        &__teg{
+            font-size: 14px !important;
+            line-height: 20px !important;
+        }
+        &__date{
+            font-size: 14px !important;
+            line-height: 20px !important;
+        }
+        &__content-head{
+            font-size: 14px !important;
+            line-height: 18px !important;
+        }
+        &__text{
+            font-size: 14px !important;
+            line-height: 20px !important;
+        }
+        &__block{
+            padding: 14px !important;
+        }
+        &__box{
+            grid-template-columns: 1fr 1fr !important;
+            grid-gap: 20px !important;
+        }
+
+    }
+    .box3{
+        grid-column-start: 1 !important;
+        grid-column-end: 3 !important;
+        grid-row-start: 2 !important;
+        grid-row-end: 2 !important;
+    }
+    .box4{
+        grid-column-start: 1 !important;
+        grid-column-end: 3 !important;
+        grid-row-start: 4 !important;
+        grid-row-end: 5 !important;
+    }
+    .partners{
+        margin-bottom: 80px !important;
+        &__head{
+            margin-bottom: 30px !important;
+            font-size: 18px !important;
+            line-height: 27px !important;
+        }
+        &__link-all{
+            font-size: 14px !important;
+            line-height: 20px !important;
+            top: 5px !important;
+        }
+        &__wrapp{
+            grid-template-columns: 1fr 1fr !important;
+            grid-gap: 20px !important;
+        }
+        &__wrapp > .partners__inner:last-child{
+            display: none !important;
+        }
+    }
+}
+@media screen and (max-width: 480px){
+    .header{
+        &__media-nav{
+            margin-left: 28px !important;
+        }
+    }
+    .first-box{
+        display: block !important;
+        &__bg-one{
+            width: 343px !important;
+            height: 120px !important;
+            background: url('../images/media-bg-1-375.jpg') !important;
+        }
+        &__link-inf{
+            width: 343px !important;
+            padding-top: 90px !important;
+        }
+        &__right-head{
+            padding-left: 0 !important; 
+        }
+        &__text{
+            margin-bottom: 24px !important;
+        }
+        &__inner-box{
+            display: block !important;
+            margin-bottom: 24px !important;
+        }
+        &__inner-text{
+            margin-bottom: 5px !important;
+        }
+        &__wrapp-btn{
+            justify-content: space-between !important;
+            margin-bottom: 30px !important;
+        }
+        &__wrapp-link{
+            padding: 12px 36px !important;
+        }
+        &__right-time{
+            padding: 16px 21px !important;
+        }
+        &__right-time-head{
+            padding: 17px 23px !important;
+        }
+        &__right-time-footer{
+            display: grid !important;
+            grid-template-columns: 1fr 1fr !important;
+        }
+        &__right-time-box-numb{
+            padding-left: 52px !important;
+            padding-right: 52px !important;
+            padding-top: 22px !important;
+            padding-bottom: 32px !important;
+        }
+    }
+    .congress{
+        margin-top: 60px !important;
+        &__header{
+            display: grid !important;
+            grid-template-columns: 1fr;
+            justify-content: center;
+        }
+        &__link-all{
+            padding-right: 17px !important;
+            margin-bottom: 10px;
+        }
+        &__box-btn{
+            grid-column-start: 1 !important;
+            grid-column-end: 3 !important;
+            grid-row-start: 2 !important;
+            margin: 0 auto !important;
+            grid-row-end: 2 !important;
+        }
+        &__btn{
+            padding: 8px 20px !important;
+        }
+    }
+    .news{
+        &__box{
+            display: block !important;
+        }
+    }
+    .partners{
+        &__wrapp{
+            display: block !important;
+        }
+        &__inner{
+            margin-bottom: 10px !important;
+        }
+    }
+}
